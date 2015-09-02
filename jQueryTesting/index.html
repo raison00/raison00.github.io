@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Build Me jQuery!</title>
+
+<link rel="stylesheet" type="text/css" href="libraries/bootstrap-3.1.0/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="libraries/jquery-ui-1.10.4/themes/base/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="libraries/jquery-ui-1.10.4/themes/base/jquery-ui.datepicker.css" />
+<link rel="stylesheet" type="text/css" href="libraries/jquery-ui-1.10.4/themes/base/jquery-ui.slider.css" />
+
+</head>
+
+<body>
+
+<div class="container margin-top-20 txt-center">
+	I would like to know my progress please :)
+</div>
+<div class="container modbox form-wrapper">
+	<form id="my-form">
+        <div class="large-title">
+            My Form
+        </div>
+        <div class="row" style="margin-top:4em;">
+            <div class="col-sm-7">
+                <div>
+                    <strong>Personal Information</strong>
+                </div>
+                <div class="margin-top-10">
+                    <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Your Full Name" />
+                </div>
+                <div class="margin-top-10">
+                    <strong class="red hidden" id="aboutYouError">The text you have entered is too long and is being truncated to 140 characters.</strong>
+                    <textarea class="form-control" name="aboutYou" id="aboutYou" placeholder="A little bit about yourself"></textarea>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div>
+                    <strong>Your Name</strong>
+                </div>
+                <div class="modbox card-wrapper margin-top-10">
+                    <div class="txt-center">
+                        <strong>Hello! My Name Is</strong>
+                    </div>
+                    <div class="txt-center cool-title" id="coolTitleID">
+                        Jonny Doe
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="margin-top-20">
+            <strong>Pick a username</strong> <strong id="usernameError" class="red hidden">Username has already been taken!</strong>
+        </div>
+        <div class="margin-top-10">
+            <input type="text" class="form-control" placeholder="Username" name="username" id="username"/>
+        </div>
+        <div class="margin-top-20">
+            <strong>Pick a password</strong>
+        </div>
+        <div class="margin-top-10">
+            <input type="password" class="form-control" placeholder="Password" name="password" id="password"/>
+        </div>
+        <div class="margin-top-20">
+            <strong>Which day are you free?</strong>
+        </div>
+        <div class="margin-top-10">
+            <input type="text" class="form-control" placeholder="The day you are free"  name="freedays" id="freedays"/>
+        </div>
+        <div class="margin-top-20">
+            <strong>How much money would you like to make?</strong>
+        </div>
+        <div class="margin-top-10">
+            <div id="slider"></div>
+            <div><div class="min">0</div><div class="max">5000000000</div></div>
+        </div>
+        <div class="margin-top-20 txt-center">
+        	<a href="#" class="btn btn-primary" id="submitMe">Submit Me jQuery!</a>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript" src="libraries/jquery-ui-1.10.4/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="libraries/jquery-ui-1.10.4/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="libraries/jquery-ui-1.10.4/ui/jquery-ui.datepicker.js"></script>
+<script type="text/javascript" src="libraries/jquery-ui-1.10.4/ui/jquery-ui.slider.js"></script>
+<!--<script type="text/javascript" src="libraries/bootstrap-3.1.0/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
