@@ -44,6 +44,4 @@ classes:
 
 fine-print:
 - version: 0.3
-  update: April 27, 2017
-  owner: Jane Doe
 ---
