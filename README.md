@@ -1,11 +1,11 @@
-# Style Guide Guide
+# Style Guide
 
-Style Guide Guide is a boilerplate for creating a custom style guide
+Style Guide is a boilerplate for creating a custom style guide
 
 ## How it works
-Style Guide Guide is built using [Jekyll](https://jekyllrb.com/), a static site generator which works quite well for managing the content of a style guide.
+Style Guide is built using [Jekyll](https://jekyllrb.com/), a static site generator which works quite well for managing the content of a style guide.
 
-The tool can consume and display components from anywhere, but in my own workflow we import patterns from [Pattern Lab](http://patternlab.io/) into Style Guide Guide for display. 
+The tool can consume and display components from anywhere, but in my own workflow we import patterns from [Pattern Lab](http://patternlab.io/) into Style Guide for display. 
 
 ## Getting Started
 1. In the command line, navigate to the root of the project and run the `jekyll serve` command. This will build the static site and watch for changes.
