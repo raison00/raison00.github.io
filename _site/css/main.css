@@ -127,7 +127,7 @@ html {
  * Body base styles
  */
 body {
-  background: lavender;
+  background: #fff;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #444;
@@ -145,7 +145,7 @@ body {
 button, input[type=submit] {
   cursor: pointer; }
   button:focus, input[type=submit]:focus {
-    outline: 1px solid rgba(109, 51, 116, 0.498); }
+    outline: 1px solid #bbb; }
 
 /*------------------------------------*\
     #FORMS
@@ -157,14 +157,14 @@ button, input[type=submit] {
  * Input placeholder text base styles
  */
 ::-webkit-input-placeholder {
-  color: rgba(109, 51, 116, 0.498); }
+  color: #bbb; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: rgba(109, 51, 116, 0.498); }
+  color: #bbb; }
 
 :-ms-input-placeholder {
-  color: rgba(109, 51, 116, 0.498); }
+  color: #bbb; }
 
 /**
  * Fieldset base styles
@@ -207,7 +207,7 @@ textarea {
  */
 input, textarea {
   width: 100%;
-  border: 1px solid rebeccapurple;
+  border: 1px solid #808080;
   padding: 0.5rem 0.65rem; }
 
 /**
@@ -247,11 +247,11 @@ select {
   font-size: 0.85rem;
   height: 2rem;
   width: 100%;
-  border: 1px solid orchid;
+  border: 1px solid #ddd;
   padding: 0.3rem;
   border-radius: 4px;
-  background: lavender;
-  color: #555;
+  background: #fff;
+  color: #444;
   -moz-appearance: none;
   -webkit-appearance: none;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTIgMTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyIDExOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZmlsbD0iIzgwODA4MCI+PHBhdGggZD0iTTIsNGw0LDRsNC00SDJ6Ii8+PC9zdmc+);
@@ -266,14 +266,14 @@ select {
    */ }
   select:focus {
     outline: 0;
-    border-color: crimson; }
+    border-color: #808080; }
   select::-ms-expand {
     /* 1 */
     display: none; }
   select::-ms-value {
     /* 1 */
     background: transparent;
-    color: crimson; }
+    color: #808080; }
 
 /*------------------------------------*\
     #HEADINGS
@@ -877,7 +877,7 @@ pre[class*="language-"] {
   position: relative;
   display: flex;
   padding: 1.5rem 1rem 1rem 1rem;
-  border: 1px solid rgba(109, 51, 116, 0.498); }
+  border: 1px solid #bbb; }
 
 /**
 * Card Footer
@@ -1303,7 +1303,7 @@ pre[class*="language-"] {
  * Primary navigation sublist
  */
 .c-primary-nav__sublist {
-  border-left: 1px solid rgba(109, 51, 116, 0.498); }
+  border-left: 1px solid #bbb; }
 
 /**
  * Primary navigation list subnavigation first of type
@@ -1543,12 +1543,12 @@ pre[class*="language-"] {
  */
 .c-tabs__list {
   display: flex;
-  border-bottom: 1px solid rgba(109, 51, 116, 0.498);
+  border-bottom: 1px solid #bbb;
   /**
    * Tabs list within vertical tabs
    */ }
   .c-tabs--vertical .c-tabs__list {
-    border: 1px solid rgba(109, 51, 116, 0.498);
+    border: 1px solid #bbb;
     display: block;
     order: 1; }
 
@@ -1569,11 +1569,11 @@ pre[class*="language-"] {
    * Tabs link within vertical tabs
    */ }
   .c-tabs__link.is-active {
-    border: 1px solid rgba(109, 51, 116, 0.498);
+    border: 1px solid #bbb;
     border-bottom: 1px solid #fff; }
   .c-tabs--vertical .c-tabs__link {
     border: 0;
-    border-bottom: 1px solid rgba(109, 51, 116, 0.498);
+    border-bottom: 1px solid #bbb;
     /**
      * Last tabs item link within vertical tabs
      */
@@ -1598,7 +1598,7 @@ pre[class*="language-"] {
   .c-tabs--vertical .c-tabs__body {
     flex: 1;
     /* 1 */
-    border: 1px solid rgba(109, 51, 116, 0.498);
+    border: 1px solid #bbb;
     border-right: 0; }
 
 /**
