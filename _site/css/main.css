@@ -127,7 +127,7 @@ html {
  * Body base styles
  */
 body {
-  background: #fff;
+  background: lavender;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #444;
@@ -145,7 +145,7 @@ body {
 button, input[type=submit] {
   cursor: pointer; }
   button:focus, input[type=submit]:focus {
-    outline: 1px solid #bbb; }
+    outline: 1px solid rgba(109, 51, 116, 0.498); }
 
 /*------------------------------------*\
     #FORMS
@@ -157,14 +157,14 @@ button, input[type=submit] {
  * Input placeholder text base styles
  */
 ::-webkit-input-placeholder {
-  color: #bbb; }
+  color: rgba(109, 51, 116, 0.498); }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #bbb; }
+  color: rgba(109, 51, 116, 0.498); }
 
 :-ms-input-placeholder {
-  color: #bbb; }
+  color: rgba(109, 51, 116, 0.498); }
 
 /**
  * Fieldset base styles
@@ -877,7 +877,7 @@ pre[class*="language-"] {
   position: relative;
   display: flex;
   padding: 1.5rem 1rem 1rem 1rem;
-  border: 1px solid #bbb; }
+  border: 1px solid rgba(109, 51, 116, 0.498); }
 
 /**
 * Card Footer
@@ -1303,7 +1303,7 @@ pre[class*="language-"] {
  * Primary navigation sublist
  */
 .c-primary-nav__sublist {
-  border-left: 1px solid #bbb; }
+  border-left: 1px solid rgba(109, 51, 116, 0.498); }
 
 /**
  * Primary navigation list subnavigation first of type
@@ -1543,12 +1543,12 @@ pre[class*="language-"] {
  */
 .c-tabs__list {
   display: flex;
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid rgba(109, 51, 116, 0.498);
   /**
    * Tabs list within vertical tabs
    */ }
   .c-tabs--vertical .c-tabs__list {
-    border: 1px solid #bbb;
+    border: 1px solid rgba(109, 51, 116, 0.498);
     display: block;
     order: 1; }
 
@@ -1569,11 +1569,11 @@ pre[class*="language-"] {
    * Tabs link within vertical tabs
    */ }
   .c-tabs__link.is-active {
-    border: 1px solid #bbb;
+    border: 1px solid rgba(109, 51, 116, 0.498);
     border-bottom: 1px solid #fff; }
   .c-tabs--vertical .c-tabs__link {
     border: 0;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid rgba(109, 51, 116, 0.498);
     /**
      * Last tabs item link within vertical tabs
      */
@@ -1598,7 +1598,7 @@ pre[class*="language-"] {
   .c-tabs--vertical .c-tabs__body {
     flex: 1;
     /* 1 */
-    border: 1px solid #bbb;
+    border: 1px solid rgba(109, 51, 116, 0.498);
     border-right: 0; }
 
 /**
